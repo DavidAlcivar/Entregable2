@@ -1,3 +1,162 @@
 .Text {
   font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5rem; */
+  padding-left: 4px;
+  padding-right: 4px;
+
+}
+
+.content {
+  display: flex;
+  gap: 1.5rem;
+
+
+
+}
+
+.content1 {
+  background: linear-gradient(rgba(224, 224, 224, 0.5), rgba(224, 224, 224, 0.5));
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* top: auto;
+  height: auto;
+  width: auto; */
+  background-size: 10px;
+
+}
+
+
+.compones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 {
+  background: linear-gradient(rgba(224, 224, 224, 0.5), rgba(224, 224, 224, 0.5));
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: 5px;
+  min-height: 10px;
+  width: 143px;
+  height: 278px;
+  justify-content: center;
+
+
+
+}
+
+.container {
+  text-align: center;
+  /* background: url(/public/Images/Weather.png);
+  width: 1280px;
+  height: 832px;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover; */
+  font-size: 18px;
+
+
+}
+
+.image5 {
+  background: url(/public/Images/Weather.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+
+}
+
+.weatherInfo {
+  display: flex;
+  text-transform: capitalize;
+
+
+}
+
+.grade {
+  font-size: 60px;
+  padding: 1rem;
+  flex-direction: column 2;
+}
+
+.wind {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.humi {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+
+
+}
+
+.press {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image1 {
+  width: center;
+  align-items: center;
+  /* border-radius: 15px; */
+  justify-content: center;
+}
+
+.image2 {
+  width: center;
+  align-items: center;
+  /* border-radius: 15px; */
+  justify-content: center;
+
+}
+
+.image3 {
+  width: center;
+  align-items: center;
+  /* border-radius: 15px; */
+  justify-content: center;
+
+}
+
+.button {
+  width: 151.867px;
+  height: 34px;
+  flex-shrink: 0;
+  display:inline center;
+  gap: 10rem;
+  padding: 10px;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 21.533px;
+  background: #FFF;
+  box-shadow: 0px 4.5333333015441895px 4.5333333015441895px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(69, 128, 186, 1);
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
 }
