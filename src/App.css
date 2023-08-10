@@ -12,6 +12,7 @@
 .content {
   display: flex;
   gap: 1.5rem;
+  /* overflow: hidden; */
 
 
 
@@ -28,6 +29,7 @@
   height: auto;
   width: auto; */
   background-size: 10px;
+  /* overflow: hidden; */
 
 }
 
@@ -42,7 +44,7 @@
   background: linear-gradient(rgba(224, 224, 224, 0.5), rgba(224, 224, 224, 0.5));
   border-radius: 1rem;
   padding: 1rem;
-  display: flex;
+  display: grid;
   align-items: center;
   flex-direction: column;
   background-size: 5px;
@@ -50,6 +52,7 @@
   width: 143px;
   height: 278px;
   justify-content: center;
+  /* overflow:visible; */
 
 
 
@@ -64,6 +67,7 @@
   background-position: center;
   background-size: cover; */
   font-size: 18px;
+  /* overflow: hidden; */
 
 
 }
@@ -75,7 +79,7 @@
   min-height: 100vh;
   display: grid;
   width: 100%;
-  overflow: hidden;
+  overflow:hidden;
 
 }
 
